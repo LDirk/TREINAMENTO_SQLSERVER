@@ -1,0 +1,15 @@
+CREATE DATABASE SUCOS_VENDAS_01
+
+CREATE DATABASE SUCOS_VENDAS_02
+ON (NAME=SUCOS_VENDAS_DAT, 
+filename = "c:\DATA\SALES_VENDA_02.MDF", 
+size = 10, 
+maxsize = 50, 
+filegrowth = 5)
+
+LOG ON ( NAME = SUCOS_VENDAS_LOG,
+filename = "c:\DATA\SALES_VENDA_02.LDF",
+size = 10,
+maxsize = 50,
+filegrowth = 5
+)
