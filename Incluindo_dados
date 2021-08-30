@@ -1,0 +1,31 @@
+insert into [TABELA DE PRODUTOS]
+(
+[CÓDIGO DO PRODUTO],
+
+[NOME DO PRODUTO],
+
+[EMBALAGEM], 
+
+[TAMANHO],
+
+[SABOR],
+
+[PREÇO DE LISTA]
+
+) 
+
+VALUES 
+(
+'1040107', 
+
+'Light - 350 ml - Melancia',
+
+'Lata',
+
+'350 ml',
+
+'Melancia',
+
+4.56
+
+)
