@@ -1,0 +1,12 @@
+update [TABELA DE PRODUTOS] set 
+
+[EMBALAGEM] = 'Lata',
+[PREÇO DE LISTA] = '2.46'
+
+WHERE [CÓDIGO DO PRODUTO] = '544931' 
+
+update [TABELA DE PRODUTOS] set 
+
+[EMBALAGEM] = 'Garrafa'
+
+WHERE [CÓDIGO DO PRODUTO] = '1078680'
