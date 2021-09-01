@@ -1,0 +1,3 @@
+delete from [TABELA DE PRODUTOS] 
+
+where [CÓDIGO DO PRODUTO] = '1088126'
