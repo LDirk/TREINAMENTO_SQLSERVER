@@ -23,3 +23,23 @@ SELECT * FROM [TABELA DE PRODUTOS] WHERE EMBALAGEM < 'Lata'
 -- <> diferente
 
 SELECT * FROM [TABELA DE PRODUTOS] WHERE EMBALAGEM <> 'Lata'
+
+
+
+-- FILTRANDO DATAS , ano - mes- dia
+
+
+select * from [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] = '1995-09-11'
+
+select * from [TABELA DE CLIENTES] WHERE [DATA DE NASCIMENTO] > '1995-09-11' 
+
+
+-- Filtrando ano especifico
+
+select * from [TABELA DE CLIENTES] where year ([DATA DE NASCIMENTO]) = 1995
+
+select * from [TABELA DE CLIENTES] where year ([DATA DE NASCIMENTO]) < 1995
+
+-- filtrando mes especifico
+
+select * from [TABELA DE CLIENTES] where month ([DATA DE NASCIMENTO]) = 9
