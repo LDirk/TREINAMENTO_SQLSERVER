@@ -1,0 +1,35 @@
+-- Selecionar tudo
+SELECT  [CPF]
+      ,[NOME]
+      ,[ENDERECO 1]
+      ,[ENDERECO 2]
+      ,[BAIRRO]
+      ,[CIDADE]
+      ,[ESTADO]
+      ,[CEP]
+      ,[DATA DE NASCIMENTO]
+      ,[IDADE]
+      ,[SEXO]
+      ,[LIMITE DE CREDITO]
+      ,[VOLUME DE COMPRA]
+      ,[PRIMEIRA COMPRA]
+  FROM [SUCOS_VENDAS].[dbo].[TABELA DE CLIENTES]
+
+  -- Corresponde ao mesmo comando de cima, seleciona tudo
+  select * from [TABELA DE CLIENTES]
+
+
+-- Selecionando colunas específicas
+  SELECT 
+   [CPF],
+   [NOME]
+      
+FROM [TABELA DE CLIENTES]
+
+
+-- Selecionando colunas específicas e mudando a coluna no aparecimento ( nome fantasia) 
+SELECT 
+   [CPF] as IDENTIFICADOR ,
+   [NOME] AS [CLIENTES]
+      
+FROM [TABELA DE CLIENTES]
