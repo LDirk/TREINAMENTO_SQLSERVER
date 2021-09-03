@@ -1,0 +1,25 @@
+-- Selecionando um produto específico pelo código
+select * from [TABELA DE PRODUTOS] where [CODIGO DO PRODUTO] = '1000889'
+
+-- Selecionando um produto específico pelo sabor
+select * from [TABELA DE PRODUTOS] where [SABOR] = 'Uva' 
+
+
+
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [PREÇO DE LISTA] = 4.555
+
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [PREÇO DE LISTA] > 10
+
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [PREÇO DE LISTA] < 10
+
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [PREÇO DE LISTA] <= 4.555
+
+SELECT * FROM [TABELA DE PRODUTOS] WHERE [PREÇO DE LISTA] >= 4.555
+
+-- Para string o critério é ordem alfabética
+
+SELECT * FROM [TABELA DE PRODUTOS] WHERE EMBALAGEM < 'Lata'
+
+-- <> diferente
+
+SELECT * FROM [TABELA DE PRODUTOS] WHERE EMBALAGEM <> 'Lata'
