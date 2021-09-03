@@ -1,0 +1,58 @@
+alter table [TABELA DE PRODUTOS]
+alter column [CÓDIGO DO PRODUTO] 
+varchar(10) NOT NULL
+
+alter table [TABELA DE PRODUTOS] 
+add CONSTRAINT PK_PRODUTOS 
+primary key CLUSTERED ([CÓDIGO DO PRODUTO])
+
+insert into [TABELA DE PRODUTOS]
+(
+[CÓDIGO DO PRODUTO],
+
+[NOME DO PRODUTO],
+
+[EMBALAGEM], 
+
+[TAMANHO],
+
+[SABOR],
+
+[PREÇO DE LISTA]
+
+) 
+
+values 
+
+('788975', 
+'Pedaços de Frutas - 1,5 Litros - Maça',
+'PET', 
+'1,5 Litros', 
+'Maça', 
+18.01)
+
+
+insert into [TABELA DE PRODUTOS]
+(
+[CÓDIGO DO PRODUTO],
+
+[NOME DO PRODUTO],
+
+[EMBALAGEM], 
+
+[TAMANHO],
+
+[SABOR],
+
+[PREÇO DE LISTA]
+
+) 
+
+values 
+
+('788975', 
+'Pedaços de Frutas - 1,5 Litros - Maça',
+'PET', 
+'1,5 Litros', 
+'Maça', 
+18.01)
